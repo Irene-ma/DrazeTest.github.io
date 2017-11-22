@@ -325,7 +325,7 @@ body {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
-    color: #b3b3b3;
+    color: orange;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -333,13 +333,13 @@ body {
   padding:0;
     text-transform: none;
     font-size:18px;
-    color:#333333;
+    color: red;
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
-    color:#808080;
+    color: white;
 }
 /*Style for even div.line*/
 .timeline>li:nth-child(odd) .line:before {
