@@ -83,7 +83,7 @@ a {
       transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       letter-spacing: 1px;
       border-bottom: none;
-      background: transparent; }
+      background: rgba(0, 0, 0, 0.4); }
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
