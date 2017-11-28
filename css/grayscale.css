@@ -41,10 +41,10 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3; }
+  color: white; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #1d9b6c; }
+    color: #07e4fd; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -146,7 +146,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/test-tube.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -282,9 +282,9 @@ body {
     z-index: 100;
     position: absolute;
     left: 50%;
-    border: 7px solid #3A98FD;
+    border: 7px solid #07e4fd;
     border-radius: 100%;
-    background-color: #3A98FD;
+    background-color: #07e4fd;
     box-shadow: 0 0 5px #4582ec;
     width: 200px;
     height: 200px;
@@ -325,7 +325,7 @@ body {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
-    color: #3A98FD;
+    color: #07e4fd;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -333,7 +333,7 @@ body {
   padding:0;
     text-transform: none;
     font-size:18px;
-    color: red;
+    color: white;
 }
 
 .timeline .timeline-body>p,
@@ -350,7 +350,7 @@ body {
     left: 690px;
     width: 4px;
     height:340px;
-    background-color: #3b5998;
+    background-color: #07e4fd;
     -ms-transform: rotate(-44deg); /* IE 9 */
     -webkit-transform: rotate(-44deg); /* Safari */
     transform: rotate(-44deg);
@@ -365,7 +365,7 @@ body {
     left: 450px;
     width: 4px;
     height:340px;
-    background-color: #3b5998;
+    background-color: #07e4fd;
     -ms-transform: rotate(44deg); /* IE 9 */
     -webkit-transform: rotate(44deg); /* Safari */
     transform: rotate(44deg);
@@ -484,12 +484,12 @@ body {
     margin: 50px 0;
     font-size: 22px;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 .project {
   width: 100%;
   height: 500px;
-  background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+  background-image: url("../img/leaping-bunny.jpg");
   background-size: cover;
   background-position: center;
   padding: 0 !important;
@@ -497,15 +497,16 @@ body {
 }
 
 .project-2 {
-  background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+  background-image: url("../img/cosmetic-rabbit.jpg");
 }
 
 .project-3 {
-  background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+  background-image: url("../img/AAVS.jpg");
+  background-position: 70% 50%;
 }
 
 .project-4 {
-  background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+  background-image: url("../img/scientific-journal.jpg");
 }
 
 .project-hover {
@@ -517,7 +518,7 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: rgba(186, 232, 2, 0.7);
+  background-color: #07e4fdad;
   padding: 40% 30px !important;
 }
 
@@ -544,9 +545,9 @@ body {
 }
 
 .project-hover a:hover {
-  border-color: rgba(51, 51, 51, 1);
-  color: rgba(51, 51, 51, 1);
-  background-color: #FFF;
+  border-color: #07e4fd;
+  color: #07e4fd;
+  background-color: white;
 }
 
 .project:hover .project-hover {
@@ -557,4 +558,33 @@ body {
   width: 100%;
   height: 5px;
 }
+
+
+/* Accordion stuff */
+.card {
+  opacity: 50%;
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+}
+
+.card-header {
+  border: none;
+  background: transparent;
+}
+
+
+.links {
+  color: #07e4fd;
+}
+/*Filter styles*/
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
 
