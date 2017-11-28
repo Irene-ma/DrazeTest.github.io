@@ -67,7 +67,9 @@ a {
     transition: background 0.3s ease-in-out; }
     #mainNav .navbar-nav .nav-item:hover {
       color: fade(white, 80%);
-      outline: none;
+      outline: 
+
+      none;
       background-color: transparent; }
     #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
       outline: none;
@@ -174,14 +176,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #07e4fd;
+  border: 1px solid #07e4fd;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
     border: 1px solid #42DCA3;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #07e4fd; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
